@@ -9,7 +9,7 @@
         "pathMappings": [
           {
             "localRoot": "${workspaceFolder}",
-            "remoteRoot": "/app"
+            "remoteRoot": "/bayt_al_mal"
           }
         ],
         "projectType": "django"

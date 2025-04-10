@@ -1,8 +1,8 @@
-"""Serializers for app.Users"""
+"""Serializers for bayt_al_mal.users"""
 
 from rest_framework.serializers import ModelSerializer
 
-from app.users.models import User
+from bayt_al_mal.users.models import User
 
 
 # Create your serializers here.

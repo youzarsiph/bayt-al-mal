@@ -154,8 +154,8 @@ description = "Redesign of the browse-able api of Django REST Framework with Boo
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "drf_redesign-0.4.0-py3-none-any.whl", hash = "sha256:87e6b9084c4945b7ed7c73602fe3becd85915e98bef41aeb4bda8f8c762acf57"},
-    {file = "drf_redesign-0.4.0.tar.gz", hash = "sha256:6906f4af72baf941aac7f637abb1a858356ca782cadda58edf41e2e67b9550ad"},
+    {file = "rest_wind-0.4.0-py3-none-any.whl", hash = "sha256:87e6b9084c4945b7ed7c73602fe3becd85915e98bef41aeb4bda8f8c762acf57"},
+    {file = "rest_wind-0.4.0.tar.gz", hash = "sha256:6906f4af72baf941aac7f637abb1a858356ca782cadda58edf41e2e67b9550ad"},
 ]
 
 [package.dependencies]

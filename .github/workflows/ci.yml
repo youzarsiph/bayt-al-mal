@@ -25,13 +25,13 @@ jobs:
           python -m pip install poetry
           python -m poetry install
           python -m poetry run python -m django startproject core
-          mv app core
+          mv bayt_al_mal core
           echo "AUTH_USER_MODEL = 'users.User'" >> core/settings.py
-          echo "INSTALLED_APPS += ['app', 'app.books', 'app.users', 'drf_redesign', 'rest_framework']" >> core/settings.py
+          echo "INSTALLED_bayt_al_malS += ['bayt_al_mal', 'bayt_al_mal.users', 'rest_wind', 'rest_framework']" >> core/settings.py
           echo "from django.urls import include" >> core/urls.py
-          echo "urlpatterns += [path('', include('app.urls'))" >> core/urls.py
+          echo "urlpatterns += [path('', include('bayt_al_mal.urls'))" >> core/urls.py
 
-      - name: Run the app
+      - name: Run the bayt_al_mal
         run: |
           source .venv/bin/activate
           python -m poetry run python core/manage.py check

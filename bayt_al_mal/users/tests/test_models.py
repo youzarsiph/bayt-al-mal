@@ -1,4 +1,4 @@
-"""Tests for app.users.models"""
+"""Tests for bayt_al_mal.users.models"""
 
 from django.test import TestCase
 
